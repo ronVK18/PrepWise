@@ -1,6 +1,7 @@
+import { cn } from '@/lib/utils';
 import Image from 'next/image'
 import React from 'react'
-import { cn } from '../../utils';
+
 
 enum CallStatus {
     INACTIVE = "INACTIVE",
