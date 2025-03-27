@@ -13,7 +13,7 @@ async function HomePage() {
     getInterviewsByUserId(id),
     getLatestInterviews({ userId: id }),
   ]);
-  console.log(allInterview)
+  // console.log(allInterview)
   const hasPastInterviews = userInterviews.length! > 0;
   const hasUpcomingInterviews = allInterview.length! > 0;
   return (
